@@ -1,0 +1,90 @@
+#top{
+    position:relative;
+  height:100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+#logo{
+    width:180px;
+    height: 80px;
+}
+input{
+    position:relative;
+    top:30px;
+    width:500px;
+    height: 35px;
+}
+select{
+    position:relative;
+    border:0;
+    height: 35px;
+    width: 90px;
+    left:200px;
+    top:30px;
+    font-size:large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    position: relative;
+    left:220px;
+    top:30px;
+    background-color:crimson;
+    color: white;
+    border: 0cap;
+    border-radius:3px;
+    height: 35px;
+    width: 90px;
+}
+#bar-icon{
+    position: relative;
+    left: 300px;
+    height: 30px;
+    width: 90px;
+    top:33px;
+
+}
+/* #one{
+    left:25px;
+    position:absolute;
+    width:1300px;
+    transform:translateZ(360);
+    transition-duration:3s;
+    
+}
+#two{
+    left:25px;
+    position:absolute;
+    transform:translateZ(360);
+    transition-duration:3s;
+
+}
+#three{
+    left:25px;
+    position:absolute;
+    transform:translateZ(360);
+    transition-duration:3s;
+ } */
+#new{
+    position: relative;
+    top:400px;
+    width:1300px;
+    left:20px;
+}
+#middle{
+    position: relative;
+    top:450px;
+    width:1335px;
+
+}
+
+/* #made{
+    width:1300px;
+    height:150px;
+    position: relative;
+    top:400px;
+    opacity: 50%;
+    background-image:url(https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW92aWUlMjByZWVsfGVufDB8fDB8fHww);
+} */
+
+

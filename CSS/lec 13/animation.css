@@ -1,0 +1,94 @@
+#super{
+    width:100%;
+    height: 400px;;
+    background:linear-gradient(skyblue,white)
+}
+#cloud{
+    position:absolute;
+    border-radius:30%;
+    animation-name:holla;
+    animation-duration:10000ms;
+    animation-iteration-count:3;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    z-index:1;
+}
+@keyframes holla{
+    0%{
+        transform:translateX(10vh);
+    }
+    100%{
+        transform: translateX(150vh);
+    }
+}
+
+#main{
+    width:120px;
+    height: 120px;
+    background:linear-gradient(yellow,orange,red);
+    animation-name:yeshu;
+    animation-duration:7000ms;
+    animation-iteration-count:3;
+    border-radius:50%;
+    margin: auto;
+   animation-direction: alternate;
+    /* border-color: rgb(61, 1, 1);
+    border: 5px solid;*/
+    animation-timing-function: ease-in;
+    position:absolute;
+    left:500px;
+    top: 70px;
+    z-index: 0;
+   
+}
+
+
+@keyframes yeshu{
+    
+    0%{
+       
+        transform:translateY(10vh);
+        
+    }
+    /* 20%{
+        transform:translateY(10vh);
+        /* background:linear-gradient(yellow,yellow, orange) */
+    /* } */ 
+    50%{
+        transform: translateY(30vh) /*rotate(360deg)*/;
+        visibility:collapse;
+       
+    }
+    /* 100%{
+        
+        transform: translateY(80vh) rotate(360deg);
+    } */
+}
+
+#one{ 
+    position:absolute;
+    left:150px;
+    z-index: 0;
+}
+#first{
+
+    width: 100%;
+    height:600px;
+}
+#sec{
+    width:45%;
+    height:130px;
+}
+#two{
+    position:absolute;
+    left:500px;
+    top: 300px;
+    z-index:2;
+}
+#third{
+    width:99%;
+    height:210px;
+    position:absolute;
+     top: 430px;
+    
+}
