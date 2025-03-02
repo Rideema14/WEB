@@ -1,5 +1,5 @@
 function fun1(){
-    console.log("hello");
+    console.log("hello!!");
     
 }
 let btn =document.querySelector('#one')
@@ -30,7 +30,7 @@ inp.addEventListener('input',(e)=>{
     btn_b.addEventListener("click",()=>{
         h1.innerText=e.target.value
     })  
-})
+}) 
 var a=false
 let btn_c=document.querySelector("#three")
 let body=document.querySelector("body")
