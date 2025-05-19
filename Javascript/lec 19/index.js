@@ -4,6 +4,7 @@
 // String "c",'c',"ccc"
 // boolean true false
 // null
+//notdefined
 // undefined
 // Bigint
 // Symbol

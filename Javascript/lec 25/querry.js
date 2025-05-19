@@ -5,7 +5,7 @@
 // a.setAttribute("href","http://youtube.com")
 // console.log(a.getAttribute("href"));
 //create 
-let div=document.querySelector("div")
-let h1=document.createElement("h1")
-h1.innerText="hello"
-div.appendChild(h1)
+let div=document.querySelector("div");
+let h1=document.createElement("h1");
+h1.innerText="hello";
+div.appendChild(h1);

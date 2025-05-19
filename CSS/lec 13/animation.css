@@ -12,15 +12,21 @@
     animation-direction: alternate;
     animation-timing-function: ease-in;
     z-index:1;
+    
 }
 @keyframes holla{
     0%{
         transform:translateX(10vh);
+        
+    }
     }
     100%{
         transform: translateX(150vh);
+    
     }
+
 }
+
 
 #main{
     width:120px;
