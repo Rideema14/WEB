@@ -19,11 +19,9 @@ else{
 // let data = prompt("enter value")
 // if(data%2==0){
 //     console.log("even");
-    
 // }
 // else{
 //     console.log("odd");
-    
 // }
 
 let score=69
