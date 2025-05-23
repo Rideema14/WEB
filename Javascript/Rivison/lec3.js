@@ -2,10 +2,9 @@ let arr= [1,2,3,4,"hello",false]
 console.log(arr[0])
 console.log(arr[arr.length-1])
 //functions
-function sum(a,b) {    //a ,b parameters 
+function sum(a,b){//a ,b parameters 
     console.log("hello")
-    console.log(a+b)
-}
+    console.log(a+b)}
 sum(1,10)//call it as many times you want to print (arguments)
 //arrow functions
 let show=(a)=>{
@@ -62,7 +61,7 @@ let new_obj = {
     }
 }
 new_obj.fullName()
-//array features 
+//array features
 //arr.push(value) = adds the value at last
 //arr.pop()=removes the value from last
 //arr.unshift(value)=adds value in front
