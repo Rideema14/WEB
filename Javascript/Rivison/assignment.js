@@ -47,3 +47,34 @@ let evenLength =arr5.map((a,b,c)=>{
 let evenLengthWords = arr5.filter((a) =>
      a.length % 2 === 0);
 console.log(evenLengthWords);
+//ques 7
+let arr6 =["a", "b", "a", "c", "b"]
+let frequency =arr6.reduce((a,b,c,d)=>{
+  
+        
+})
+console.log(frequency)
+//ques 9
+let arr7 =[10,20,30]
+let average = arr7.reduce((a,b,c,d)=>{
+    return a+b
+})
+console.log(average/arr7.length);
+//ques 8
+let arr8= ["Hello", "world", "from", "reduce"]
+let concatinate =arr8.reduce((a,b,c,d)=>{
+    return a+" "+b
+})
+console.log(concatinate);
+//ques 10
+let arr9 =["apple", "banana"]
+let count =0
+let vowel =arr9.map((x,y,z)=>{
+    for ( let i of  x){
+     if(i==="a"||i==="e"||i==="i"||i==="o"||i==="u")
+        count++
+     
+    }
+       return count
+})
+console.log(count)

@@ -32,8 +32,8 @@ for( let i of arr){
 let lucky=Math.floor(Math.random()*10)
 let my_lucky =5
 lucky==my_lucky?console.log("got my lucky number"):console.log("not got")
-
-let arr2=[-3,0,3,5,5,2,0,1]
+//ques max sum with 3 numbers
+let arr2=[-3,0,3,5,5,2,0,1,]//553
  let maxi =arr2.reduce((a,b,c,d)=>{
     return a>b?a:b
 })
@@ -49,9 +49,9 @@ let ro=arr2.filter((a)=>{
 let bro =ro.reduce((a,b,c,d)=>{
     return a>b?a:b
 })
-console.log(bro)
-console.log(hollas)
 console.log(maxi)
+console.log(hollas)
+console.log(bro)
 console.log(bro+hollas+maxi)
   let count =0
 let odd = arr2.filter((a)=>{
