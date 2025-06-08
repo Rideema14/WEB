@@ -10,6 +10,7 @@ console.log(a)
 //non repeating
 let arr =[1,2,2,3,3,4,5,5]
 let newarr =[]
+
 for( let i of arr)
 {
 if(newarr.includes(i)){

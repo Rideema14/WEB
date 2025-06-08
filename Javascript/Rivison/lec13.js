@@ -45,12 +45,19 @@ console.log(obj.__proto__)
 let str="hello"
 //str=>String.prototype=>Object.prototype=>Null
 Array.prototype.myMap=function(cb){
+    console.log(cb);
     let res=[]
     for(var i=0;i<this.length;i++){
-
+       
+       res.push(cb(this[i]))
+        
     }
+    return res
+
 }
-let arr1=[1,2,3]
-arr1.mymap((a,b,c)=>{
-    return a
-})
+let arr=[1,2,3]
+ let val=  arr.myMap(   (a)=>{ 
+    return a*2      
+
+}   )
+console.log(val);
