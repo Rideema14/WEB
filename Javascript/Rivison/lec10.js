@@ -23,4 +23,5 @@ console.log(foo())
 if(false){
     var a=5
 }
+
 console.log(a)
