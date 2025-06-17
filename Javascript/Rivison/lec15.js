@@ -5,7 +5,7 @@ let obj={
     name:"rahul",
     lastName:"kumar",
     getFullName:function(age,isPass){
-        console.log(this.name+ "   "+this.lastName+  " "+age +" "+isPass);
+        console.log(this.name+ "   "+this.lastName+ " "+age +" "+isPass);
     }
 }
 let obj1={
