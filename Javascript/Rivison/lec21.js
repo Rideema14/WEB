@@ -17,6 +17,13 @@ e.preventDefault()
         number:formEl[1].value,
         passWord:formEl[2].value,}
         
-        localStorage.setItem("key",)
+       localStorage.setItem("key",JSON.stringify(data))
+
+       let val=    localStorage.getItem('key')
+      let realData=JSON.parse(val)
+      h3.innerText=realData.name
+      h4.innerText=realData.number
+      h5.innerText=realData.passWord
+
 })
 
