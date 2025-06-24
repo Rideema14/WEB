@@ -4,10 +4,10 @@ const buttons = document.querySelectorAll("button");
 
 buttons.forEach(button =>{
     button.addEventListener("click",()=>{
-        let value = button.textContent;
+        let value = button.innerText;
       
         if (value === "="){
-            displayValue = eval(displayValue) || "Error";
+        displayValue = eval(displayValue) || "Error";
            
         } 
         else if (value === "C"){
@@ -17,6 +17,6 @@ buttons.forEach(button =>{
             displayValue += value;
         }
 
-        display.textContent = displayValue || 0;
+        display.innerText = displayValue || 0;
     });
 });
